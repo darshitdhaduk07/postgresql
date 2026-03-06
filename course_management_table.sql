@@ -98,33 +98,33 @@
 -- ('Emily Davis', 'emily.davis@example.com', '1999-03-18', '2026-01-13'),
 -- ('Sara Wilson', 'sara.wilson@example.com', '2001-07-30', '2026-01-14');
 
-INSERT INTO enrollment (student_id, course_id, enrollment_date, status) VALUES
-(1, 1, '2026-02-01', 'Active'),
-(2, 2, '2026-02-02', 'Active'),
-(3, 3, '2026-02-03', 'Completed'),
-(4, 4, '2026-02-04', 'Active'),
-(5, 5, '2026-02-05', 'Active');
+-- INSERT INTO enrollment (student_id, course_id, enrollment_date, status) VALUES
+-- (1, 1, '2026-02-01', 'Active'),
+-- (2, 2, '2026-02-02', 'Active'),
+-- (3, 3, '2026-02-03', 'Completed'),
+-- (4, 4, '2026-02-04', 'Active'),
+-- (5, 5, '2026-02-05', 'Active');
 
-INSERT INTO payment (enrollment_id, amount, payment_date, payment_method, transaction_reference) VALUES
-(1, 100.00, '2026-02-01', 'Credit Card', 'TXN1001'),
-(2, 150.00, '2026-02-02', 'PayPal', 'TXN1002'),
-(3, 80.00, '2026-02-03', 'Credit Card', 'TXN1003'),
-(4, 120.00, '2026-02-04', 'Bank Transfer', 'TXN1004'),
-(5, 200.00, '2026-02-05', 'Credit Card', 'TXN1005');
+-- INSERT INTO payment (enrollment_id, amount, payment_date, payment_method, transaction_reference) VALUES
+-- (1, 100.00, '2026-02-01', 'Credit Card', 'TXN1001'),
+-- (2, 150.00, '2026-02-02', 'PayPal', 'TXN1002'),
+-- (3, 80.00, '2026-02-03', 'Credit Card', 'TXN1003'),
+-- (4, 120.00, '2026-02-04', 'Bank Transfer', 'TXN1004'),
+-- (5, 200.00, '2026-02-05', 'Credit Card', 'TXN1005');
 
-INSERT INTO assignment (course_id, title, max_marks, due_date) VALUES
-(1, 'Python Project', 100, '2026-03-01'),
-(2, 'Java Project', 100, '2026-03-05'),
-(3, 'Web Page Design', 50, '2026-03-03'),
-(4, 'SQL Queries', 75, '2026-03-04'),
-(5, 'ML Model', 100, '2026-03-10');
+-- INSERT INTO assignment (course_id, title, max_marks, due_date) VALUES
+-- (1, 'Python Project', 100, '2026-03-01'),
+-- (2, 'Java Project', 100, '2026-03-05'),
+-- (3, 'Web Page Design', 50, '2026-03-03'),
+-- (4, 'SQL Queries', 75, '2026-03-04'),
+-- (5, 'ML Model', 100, '2026-03-10');
 
-INSERT INTO review (enrollment_id, rating, comment, review_date) VALUES
-(1, 5, 'Excellent course!', '2026-02-20'),
-(2, 4, 'Very informative.', '2026-02-21'),
-(3, 5, 'Loved it!', '2026-02-22'),
-(4, 3, 'Good, but could improve.', '2026-02-23'),
-(5, 5, 'Amazing content!', '2026-02-24');
+-- INSERT INTO review (enrollment_id, rating, comment, review_date) VALUES
+-- (1, 5, 'Excellent course!', '2026-02-20'),
+-- (2, 4, 'Very informative.', '2026-02-21'),
+-- (3, 5, 'Loved it!', '2026-02-22'),
+-- (4, 3, 'Good, but could improve.', '2026-02-23'),
+-- (5, 5, 'Amazing content!', '2026-02-24');
 
 
 -- Total revenue per course
